@@ -35,3 +35,9 @@
   // Array.prototype.findIndex()
   // Find the comment with this ID
   // delete the comment with the ID of 823423
+  // slice and splice
+  // Create an Array
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// At position 2, remove 1 item, add "Lemon" and "Kiwi"
+fruits.splice(2, 1, "Lemon", "Kiwi");
